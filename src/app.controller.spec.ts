@@ -15,7 +15,7 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('so basically it is crud application', () => {
+    it('crud application on', () => {
       expect(appController.getHello()).toBe('Hello World!');
     });
   });
