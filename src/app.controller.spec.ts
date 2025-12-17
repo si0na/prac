@@ -15,8 +15,8 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('it returns users data', () => {
-      expect(appController.getHello()).toBe('Hello World!');
+    it('it returns users data not shduiabeuwygwhedbsdbndbndsn', () => {
+      expect(appController.getUsers()).toBe('Hello World!');
     });
   });
 });
